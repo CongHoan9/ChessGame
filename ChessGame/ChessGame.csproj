@@ -1,0 +1,163 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\Gui\Icon.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Board-Pieces\bb.png" />
+    <None Remove="Assets\Board-Pieces\bk.png" />
+    <None Remove="Assets\Board-Pieces\Blank.png" />
+    <None Remove="Assets\Board-Pieces\bn.png" />
+    <None Remove="Assets\Board-Pieces\Board.png" />
+    <None Remove="Assets\Board-Pieces\bp.png" />
+    <None Remove="Assets\Board-Pieces\bq.png" />
+    <None Remove="Assets\Board-Pieces\br.png" />
+    <None Remove="Assets\Board-Pieces\Duck.png" />
+    <None Remove="Assets\Board-Pieces\Hover.cur" />
+    <None Remove="Assets\Board-Pieces\Move.cur" />
+    <None Remove="Assets\Board-Pieces\wb.png" />
+    <None Remove="Assets\Board-Pieces\wk.png" />
+    <None Remove="Assets\Board-Pieces\wn.png" />
+    <None Remove="Assets\Board-Pieces\wp.png" />
+    <None Remove="Assets\Board-Pieces\wq.png" />
+    <None Remove="Assets\Board-Pieces\wr.png" />
+    <None Remove="Assets\Board-Pieces\wv.svg" />
+    <None Remove="Assets\Gui\analysis.png" />
+    <None Remove="Assets\Gui\Back.png" />
+    <None Remove="Assets\Gui\black.png" />
+    <None Remove="Assets\Gui\black.svg" />
+    <None Remove="Assets\Gui\BotImage.png" />
+    <None Remove="Assets\Gui\chesscom_logo_wordmark.png" />
+    <None Remove="Assets\Gui\Close.png" />
+    <None Remove="Assets\Gui\cute-bot.png" />
+    <None Remove="Assets\Gui\cute-bot.svg" />
+    <None Remove="Assets\Gui\download.png" />
+    <None Remove="Assets\Gui\Expand.png" />
+    <None Remove="Assets\Gui\Library.png" />
+    <None Remove="Assets\Gui\Logo.png" />
+    <None Remove="Assets\Gui\More.png" />
+    <None Remove="Assets\Gui\Next.png" />
+    <None Remove="Assets\Gui\NoAvata.gif" />
+    <None Remove="Assets\Gui\NoAvata.png" />
+    <None Remove="Assets\Gui\Plus.png" />
+    <None Remove="Assets\Gui\random.png" />
+    <None Remove="Assets\Gui\random.svg" />
+    <None Remove="Assets\Gui\resign.png" />
+    <None Remove="Assets\Gui\Reverse.png" />
+    <None Remove="Assets\Gui\setting.png" />
+    <None Remove="Assets\Gui\Share.png" />
+    <None Remove="Assets\Gui\white.png" />
+    <None Remove="Assets\Gui\white.svg" />
+    <None Remove="Assets\Icons\BotImage.png" />
+    <None Remove="Assets\Icons\crown.png" />
+    <None Remove="Assets\Icons\diamond.png" />
+    <None Remove="Assets\Icons\hikarubot.png" />
+    <None Remove="Assets\Icons\learn.png" />
+    <None Remove="Assets\Icons\more.png" />
+    <None Remove="Assets\Icons\news.png" />
+    <None Remove="Assets\Icons\playwhite.png" />
+    <None Remove="Assets\Icons\puzzles.png" />
+    <None Remove="Assets\Icons\social.png" />
+    <None Remove="Assets\Icons\Stockfish.png" />
+    <None Remove="Assets\Icons\StockfishImage.png" />
+    <None Remove="Assets\Icons\Usa.png" />
+    <None Remove="Assets\Icons\Vn.png" />
+    <None Remove="Assets\Icons\watch.png" />
+    <None Remove="Assets\Sounds\Lichess_capture.wav" />
+    <None Remove="Assets\Sounds\Lichess_illegal.wav" />
+    <None Remove="Assets\Sounds\Lichess_move-self.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Board-Pieces\bb.png" />
+    <Resource Include="Assets\Board-Pieces\bk.png" />
+    <Resource Include="Assets\Board-Pieces\Blank.png" />
+    <Resource Include="Assets\Board-Pieces\bn.png" />
+    <Resource Include="Assets\Board-Pieces\Board.png" />
+    <Resource Include="Assets\Board-Pieces\bp.png" />
+    <Resource Include="Assets\Board-Pieces\bq.png" />
+    <Resource Include="Assets\Board-Pieces\br.png" />
+    <Resource Include="Assets\Board-Pieces\Duck.png" />
+    <Resource Include="Assets\Board-Pieces\Hover.cur" />
+    <Resource Include="Assets\Board-Pieces\Move.cur" />
+    <Resource Include="Assets\Board-Pieces\wb.png" />
+    <Resource Include="Assets\Board-Pieces\wk.png" />
+    <Resource Include="Assets\Board-Pieces\wn.png" />
+    <Resource Include="Assets\Board-Pieces\wp.png" />
+    <Resource Include="Assets\Board-Pieces\wq.png" />
+    <Resource Include="Assets\Board-Pieces\wr.png" />
+    <Resource Include="Assets\Gui\Close.png" />
+    <Resource Include="Assets\Gui\Icon.ico" />
+    <Resource Include="Assets\Gui\More.png" />
+    <Resource Include="Assets\Icons\StockfishImage.png" />
+    <Resource Include="Assets\Sounds\Lichess_capture.wav" />
+    <Resource Include="Assets\Sounds\Lichess_illegal.wav" />
+    <Resource Include="Assets\Sounds\Lichess_move-self.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Gui\analysis.png" />
+    <Resource Include="Assets\Gui\Back.png" />
+    <Resource Include="Assets\Gui\black.png" />
+    <Resource Include="Assets\Gui\black.svg" />
+    <Resource Include="Assets\Gui\BotImage.png" />
+    <Resource Include="Assets\Gui\chesscom_logo_wordmark.png" />
+    <Resource Include="Assets\Gui\cute-bot.png" />
+    <Resource Include="Assets\Gui\cute-bot.svg" />
+    <Resource Include="Assets\Gui\Reverse.png" />
+    <Resource Include="Assets\Gui\download.png" />
+    <Resource Include="Assets\Gui\Expand.png" />
+    <Resource Include="Assets\Gui\Library.png" />
+    <Resource Include="Assets\Gui\Logo.png" />
+    <Resource Include="Assets\Gui\Next.png" />
+    <Resource Include="Assets\Icons\NoAvata.png" />
+    <Resource Include="Assets\Gui\Plus.png" />
+    <Resource Include="Assets\Gui\random.png" />
+    <Resource Include="Assets\Gui\random.svg" />
+    <Resource Include="Assets\Gui\resign.png" />
+    <Resource Include="Assets\Gui\setting.png" />
+    <Resource Include="Assets\Gui\Share.png" />
+    <Resource Include="Assets\Gui\white.png" />
+    <Resource Include="Assets\Gui\white.svg" />
+    <Resource Include="Assets\Icons\BotImage.png" />
+    <Resource Include="Assets\Icons\crown.png" />
+    <Resource Include="Assets\Icons\diamond.png" />
+    <Resource Include="Assets\Icons\hikarubot.png" />
+    <Resource Include="Assets\Icons\learn.png" />
+    <Resource Include="Assets\Icons\more.png" />
+    <Resource Include="Assets\Icons\news.png" />
+    <Resource Include="Assets\Icons\playwhite.png" />
+    <Resource Include="Assets\Icons\puzzles.png" />
+    <Resource Include="Assets\Icons\social.png" />
+    <Resource Include="Assets\Icons\Usa.png" />
+    <Resource Include="Assets\Icons\Vn.png" />
+    <Resource Include="Assets\Icons\watch.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Game\" />
+  </ItemGroup>
+
+</Project>

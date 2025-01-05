@@ -1,0 +1,47 @@
+﻿public Point[] GetPoint(Position start, Position end)
+{
+    Point startt = ToPoint(start), endd = ToPoint(end);
+    double dxp = end.Column - start.Column, dyp = end.Row - start.Row;
+    double dx = endd.X - startt.X, dy = endd.Y - startt.Y;
+    if ((Math.Abs(dxp) == 2 && Math.Abs(dyp) == 1) || (Math.Abs(dxp) == 1 && Math.Abs(dyp) == 2)) // if arrow for knight
+    {
+        bool isHorizontal = Math.Abs(dx) > Math.Abs(dy);
+        Point corner = isHorizontal ? new(endd.X, startt.Y) : new(startt.X, endd.Y);
+        double dxsc = corner.X - startt.X, dysc = corner.Y - startt.Y;
+        double dxce = endd.X - corner.X, dyce = endd.Y - corner.Y;
+        double lengthsc = Math.Sqrt(dxsc * dxsc + dysc * dysc), lengthce = Math.Sqrt(dxce * dxce + dyce * dyce);
+        double uxsc = dxsc / lengthsc, uysc = dysc / lengthsc;
+        double uxce = dxce / lengthce, uyce = dyce / lengthce;
+        startt = new(uxsc * 27, uysc * 27);
+        endd = new(dx - uxce * 27, dy - uyce * 27);
+        corner = isHorizontal? new(endd.X, startt.Y) : new(startt.X, endd.Y);
+        return
+        [
+            new(startt.X - uysc * 8, startt.Y + uxsc * 8),
+            new(corner.X - (isHorizontal ? uyce : uysc) * 8, corner.Y + (isHorizontal ? uxsc : uxce) * 8),
+            new(endd.X - uyce * 8, endd.Y + uxce * 8),
+            new(endd.X - uyce * (isHorizontal ? 19 : 8), endd.Y + uxce * (isHorizontal ? 8 : 19)),
+            new(dx, dy),                  
+            new(endd.X + uyce * (isHorizontal ? 19 : 8), endd.Y - uxce * (isHorizontal ? 8 : 19)),
+            new(endd.X + uyce * 8, endd.Y - uxce * 8),
+            new(corner.X + (isHorizontal ? uyce : uysc) * 8, corner.Y - (isHorizontal ? uxsc : uxce) * 8),
+            new(startt.X + uysc * 8, startt.Y - uxsc * 8),
+        ];
+    }
+    else
+    {
+        double length = Math.Sqrt(dx * dx + dy * dy), ux = dx / length, uy = dy / length;
+        startt = new(ux * 27, uy * 27); 
+        endd = new(dx - ux * 27, dy - uy * 27);
+        return
+        [
+            new(startt.X - uy * 8, startt.Y + ux * 8),
+            new(endd.X - uy * 8, endd.Y + ux * 8),
+            new(endd.X - uy * 19, endd.Y + ux * 19),
+            new(dx, dy), // arrow head
+            new(endd.X + uy * 19, endd.Y - ux * 19),
+            new(endd.X + uy * 8, endd.Y - ux * 8),
+            new(startt.X + uy * 8, startt.Y - ux * 8)
+        ];
+    }
+}

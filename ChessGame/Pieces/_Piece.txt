@@ -1,0 +1,14 @@
+﻿
+public string ToIcon()
+{
+    return Type switch
+    {
+        PieceType.Pawn => $"{(Color == Player.White ? "♟" : "♙")} ",
+        PieceType.Bishop => $"{(Color == Player.White ? "♝" : "♗")} ",
+        PieceType.Knight => $"{(Color == Player.White ? "♞" : "♘")} ",
+        PieceType.Rook => $"{(Color == Player.White ? "♜" : "♖")} ",
+        PieceType.Queen => $"{(Color == Player.White ? "♛" : "♕")} ",
+        PieceType.King => $"{(Color == Player.White ? "♚" : "♔")} ",
+        _ => ""                                        
+    };
+}

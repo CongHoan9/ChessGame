@@ -1,0 +1,48 @@
+﻿<UserControl x:Class="ChessGame.PromotionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChessGame"
+             mc:Ignorable="d" 
+             Height="393.75" 
+             Width="87.5"
+             Cursor="Hand"
+             ClipToBounds="False">
+    <UserControl.Effect>
+        <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="10" Opacity="0.5"/>
+    </UserControl.Effect>
+    <Grid x:Name="GridSelect" Background="White">
+        <Grid.Clip>
+            <RectangleGeometry Rect="0, 0, 87.5, 393.75" RadiusX="5" RadiusY="5"/>
+        </Grid.Clip>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="43.75"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="Queen" MouseLeftButtonDown="Queen_Click" Grid.Row="0"/>
+        <Image x:Name="Knight" MouseLeftButtonDown="Knight_Click" Grid.Row="1"/>
+        <Image x:Name="Rook" MouseLeftButtonDown="Rook_Click" Grid.Row="2"/>
+        <Image x:Name="Bishop" MouseLeftButtonDown="Bishop_Click" Grid.Row="3"/>
+        <Button x:Name="BtnClose" Click="Close" Grid.Row="4">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="#f1f1f1">
+                        <Image IsHitTestVisible="False" Margin="10" Source="C:\Users\84352\Desktop\ChessGame\ChessGame\Assets\Gui\Close.png"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#f1f1f1"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Background" Value="#f1f1f1"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</UserControl>

@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84352\\Desktop\\ChessGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\board.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\board.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\encrypt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\hint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\hint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\icon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\icon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\hover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\hover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\overlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\board\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\board\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\normalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\normalmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\pieces\\pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\enpassant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\enpassant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\doublepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\doublepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\castle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\pawnpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\pawnpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\pieces\\king.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|c:\\users\\84352\\desktop\\chessgame\\chessgame\\move\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C45C1C-8C98-4E17-9D3D-2B7E463A3C08}|ChessGame\\ChessGame.csproj|solutionrelative:chessgame\\move\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 409,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Encrypt.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Encrypt.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Encrypt.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Encrypt.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Encrypt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:00:06.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hint.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Hint.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Hint.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Hint.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Hint.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T20:00:01.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hover.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Hover.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Hover.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Hover.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Hover.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:59:48.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Icon.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Icon.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Icon.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Icon.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Icon.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:59:34.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Overlay.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Overlay.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Overlay.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Overlay.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Overlay.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:59:26.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Position.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Position.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Position.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:59:08.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Square.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Square.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Square.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Square.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T19:55:49.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pawn.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Pieces\\Pawn.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Pieces\\Pawn.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Pieces\\Pawn.cs",
+              "RelativeToolTip": "ChessGame\\Pieces\\Pawn.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvzsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:37:06.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "King.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Pieces\\King.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Pieces\\King.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Pieces\\King.cs",
+              "RelativeToolTip": "ChessGame\\Pieces\\King.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:33:37.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ChessGame\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\App.xaml.cs",
+              "RelativeToolTip": "ChessGame\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:32:59.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DoublePawn.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\DoublePawn.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\DoublePawn.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\DoublePawn.cs",
+              "RelativeToolTip": "ChessGame\\Move\\DoublePawn.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA3wCAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:32:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EnPassant.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\EnPassant.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\EnPassant.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\EnPassant.cs",
+              "RelativeToolTip": "ChessGame\\Move\\EnPassant.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:32:44.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NormalMove.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\NormalMove.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\NormalMove.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\NormalMove.cs",
+              "RelativeToolTip": "ChessGame\\Move\\NormalMove.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCgAAACdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:27:57.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PawnPromotion.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\PawnPromotion.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\PawnPromotion.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\PawnPromotion.cs",
+              "RelativeToolTip": "ChessGame\\Move\\PawnPromotion.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvzAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T17:01:17.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Castle.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\Castle.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\Castle.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\Castle.cs",
+              "RelativeToolTip": "ChessGame\\Move\\Castle.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:49:11.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\GameState.cs",
+              "RelativeDocumentMoniker": "ChessGame\\GameState.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\GameState.cs",
+              "RelativeToolTip": "ChessGame\\GameState.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:25:06.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Board.xaml.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Board\\Board.xaml.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Board\\Board.xaml.cs",
+              "RelativeToolTip": "ChessGame\\Board\\Board.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwFoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:25:02.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Move.cs",
+              "DocumentMoniker": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\Move.cs",
+              "RelativeDocumentMoniker": "ChessGame\\Move\\Move.cs",
+              "ToolTip": "C:\\Users\\84352\\Desktop\\ChessGame\\ChessGame\\Move\\Move.cs",
+              "RelativeToolTip": "ChessGame\\Move\\Move.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T16:24:45.124Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 335,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

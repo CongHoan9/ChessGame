@@ -1,0 +1,62 @@
+﻿private void WriteBoard()
+{
+    Process.Start("cmd.exe", "/c cls").WaitForExit();
+    Console.ResetColor();
+    Console.WriteLine(Reverse ? CountPiece(Player.Black) : CountPiece(Player.White));
+    Console.WriteLine($"╔{new('═', 8 * 2)}╗");
+    for (int r = 0; r < 8; r++)
+    {
+        Console.Write("║");
+        for (int c = 0; c < 8; c++)
+        {
+            if (Squares.FirstOrDefault(s => s.Position == new Position(r, c)) is Square square)
+            {
+                if (square._Piece is Piece piece)
+                {
+                    Console.Write(piece.ToIcon());
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.Write("  ");
+                }
+            }
+            else
+            {
+                Console.Write("  ");
+            }
+        }
+        Console.WriteLine("║");
+    }
+    Console.WriteLine($"╚{new('═', 8 * 2)}╝");
+    Console.WriteLine(Reverse ? CountPiece(Player.White) : CountPiece(Player.Black));
+}
+
+        
+public int CountPiece(Piece piece)
+{
+    Dictionary<PieceType, int> countt = new()
+    {
+        { PieceType.Queen, 1 },
+        { PieceType.Rook, 2},
+        { PieceType.Bishop, 2 },
+        { PieceType.Knight, 2 },
+        { PieceType.Pawn, 8 },
+    };
+    int count = Squares.Count(s => s.Piece.Type == piece.Type && s.Piece.Color == piece.Color);
+    if (countt.TryGetValue(piece.Type, out int i))
+    {
+        Console.Write($"{new(piece.ToIcon()[0], Math.Max(i - count, 0))}");
+        Console.ResetColor();
+    }
+    return count;
+}
+private string CountPiece(Player player)
+{
+    CountPiece(new Queen(player));
+    CountPiece(new Rook(player));
+    CountPiece(new Bishop(player));
+    CountPiece(new Knight(player));
+    CountPiece(new Pawn(player));
+    return null;
+}
